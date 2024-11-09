@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Contacto</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <script src="librerias-css.js"></script>
+</head>
+
+<body class="contact-page">
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+        <a href="../index.html" class="logo d-flex align-items-center"></a>
+        <nav id="navmenu" class="navmenu">
+            <ul>
+                <li><a href="../index.html" class="active">Inicio</a></li>
+                <li class="dropdown"><a href="#"><span>Saber mas</span> <i
+                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                    <ul>
+                        <li><a href="acerca.html">Acerca de mí</a></li>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="portafolio.html">Portafolio</a></li>
+                        <li><a href="resume.html">Resumen</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <br/><br/><br/>
+    <section id="contact" class="contact section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+            <div class="row gy-4">
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
+                        <i class="icon bi bi-geo-alt flex-shrink-0"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>A108 Adam Street, New York, NY 535022</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
+                        <i class="icon bi bi-telephone flex-shrink-0"></i>
+                        <div>
+                            <h3>Call Me</h3>
+                            <p>+1 5589 55488 55</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
+                        <i class="icon bi bi-envelope flex-shrink-0"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+                <div class="col-md-6">
+                    <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
+                        <i class="icon bi bi-share flex-shrink-0"></i>
+                        <div>
+                            <h3>Social Profiles</h3>
+                            <div class="social-links">
+                                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                                <a href="#"><i class="bi bi-instagram"></i></a>
+                                <a href="#"><i class="bi bi-skype"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End Info Item -->
+
+            </div>
+
+            <form action="../forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
+                  data-aos-delay="600">
+                <div class="row gy-4">
+
+                    <div class="col-md-6">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                    </div>
+
+                    <div class="col-md-6 ">
+                        <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                    </div>
+
+                    <div class="col-md-12">
+                        <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                    </div>
+
+                    <div class="col-md-12">
+                        <textarea class="form-control" name="message" rows="6" placeholder="Message"
+                                  required=""></textarea>
+                    </div>
+
+                    <div class="col-md-12 text-center">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                        <button type="submit">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+
+<footer id="footer" class="footer dark-background">
+    <div class="container">
+        <h3 class="sitename">Desarrollador Full Stack</h3>
+        <p>Si deseas conocer mas acerca de mi buscame en mis redes sociales.</p>
+        <div class="social-links d-flex justify-content-center">
+            <a href="https://github.com/LFMG1993" target="_blank"><i class="bi bi-github"></i></a>
+            <a href="https://linkedin.com/in/lfmg1993" target="_blank"><i class="bi bi-linkedin"></i></a>
+            <a href="https://x.com/LFMG1993" target="_blank"><i class="bi bi-twitter-x"></i></a>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <span>Todos los Derechos Reservados</span>
+            </div>
+            <div class="credits">
+                Diseñado por <a href="#">Leonardo Montes</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
+
+<div id="preloader"></div>
+
+<script src="librerias-js.js"></script>
+
+</body>
+</html>
